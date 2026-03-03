@@ -11,7 +11,7 @@
 1. Follow GRVT's API Setup Guide [(Step 5 - Step 6)](https://api-docs.grvt.io/api_setup/)<br>
 
 2. Create Shellscript using GitBash
-```bash
+```bash linenums="1"
 cat > ~/grvt_api.sh << 'EOF'
 GRVT_API_KEY="<insert_key_here>"
 GRVT_SUB_ACCOUNT_ID="<insert_sub_account_id_here>"
